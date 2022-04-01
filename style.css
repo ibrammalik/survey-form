@@ -1,0 +1,71 @@
+body {
+  background-color: silver;
+}
+#title {
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+#description {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+label {
+  padding: 10px 0px;
+}
+#name,
+#email,
+#number,
+#dropdown {
+  height: 30px;
+  margin: auto;
+  border-radius: 7px;
+  border: none;
+  background-color: #c0c0c050;
+  width: 98%;
+}
+#survey-form {
+  background-color: white;
+  margin: 10px auto;
+  text-align: justify;
+  padding: 10px 10px;
+  width: 70%;
+  border-radius: 25px;
+  max-width: 720px;
+}
+#survey-form div {
+  padding: 10px 5px;
+}
+#radio-div label input {
+  margin: 6px auto;
+}
+#checkbox-div label input {
+  margin: 6px auto;
+}
+#textarea-div textarea {
+  resize: vertical;
+  width: 98%;
+  border: none;
+  border-radius: 5px;
+  background-color: #c0c0c050;
+  height: 80px;
+}
+#submit-div {
+  margin: auto;
+  text-align: center;
+}
+#submit {
+  border: none;
+  border-radius: 5px;
+  background-color: silver;
+  padding: 10px 20px;
+}
+#submit:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.6s;
+}
