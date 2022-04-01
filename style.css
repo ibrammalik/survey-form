@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 body {
   background-color: silver;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
 }
 
 .video-bg {
@@ -21,6 +25,7 @@ video {
   padding-top: 20px;
   margin: auto;
   text-align: center;
+  color: white;
 }
 
 #description {
@@ -28,11 +33,13 @@ video {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 10px;
+  color: whitesmoke;
 }
 
 label {
   padding: 10px 0px;
 }
+
 #name,
 #email,
 #number,
@@ -41,15 +48,18 @@ label {
   margin: auto;
   border-radius: 7px;
   border: none;
-  background-color: #c0c0c050;
+  background-color: rgba(113 119 144 / 25%);
+  color: rgb(179, 184, 202);
   width: 98%;
 }
 #survey-form {
-  background-color: white;
+  background-color: rgba(16 18 27 / 40%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   margin: 10px auto;
   text-align: justify;
   padding: 10px 10px;
-  width: 70%;
+  width: 85%;
   border-radius: 25px;
   max-width: 720px;
 }
@@ -84,4 +94,26 @@ label {
   background-color: black;
   color: white;
   transition: all 0.6s;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(179, 184, 202);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(179, 184, 202);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(179, 184, 202);
+}
+
+@media (max-width: 428px) {
+  body {
+    font-size: smaller;
+  }
 }
